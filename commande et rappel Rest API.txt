@@ -1,0 +1,8 @@
+Pour faire fonctionner une première fois avec les outils dont on a pas le droit :
+
+"npm i" dans le dossier stack/app
+dans server.js, mettre ses propres identifiants github
+
+"docker ps" pour vérifier qu'aucun autre container tourne
+
+"docker-compose up -d && docker logs -f node" dans le dossier "stack"

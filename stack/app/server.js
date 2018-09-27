@@ -1,5 +1,7 @@
 var GitHub = require('github-api');
 
+//docs : http://github-tools.github.io/github/docs/3.1.0/User.html#listRepos
+
 // basic auth
 var gh = new GitHub({
     username: '',
@@ -13,7 +15,6 @@ me.listNotifications(function(err, notifications) {
 });
 
 var nortalle = gh.getUser('nortalle');
-nortalle
 nortalle.listRepos(function(err, repos) {
     console.log('nombre de repos : ' + repos.length);
 });
