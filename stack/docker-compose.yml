@@ -1,0 +1,15 @@
+version: '3'
+services:
+    node:
+        image: node:alpine
+        container_name: node
+        user: node
+        working_dir: /home/node/app
+        environment:
+            - NODE_ENV=production
+        restart: always
+        volumes:
+            - "./app:/home/node/app"
+        expose:
+            - "8081"
+        command: "npm start"
