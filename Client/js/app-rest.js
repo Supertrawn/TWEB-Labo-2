@@ -18,6 +18,11 @@ function getLanguages(username) {
     .then(res => res.json());
 }
 
+function getBestLanguages(username) {
+  return fetch(`${baseUrl}/bestLanguages/${username}`)
+    .then(res => res.json());
+}
+
 function getGithubColors() {
   return fetch('data/github-colors.json')
     .then(res => res.json());
