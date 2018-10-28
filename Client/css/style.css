@@ -1,0 +1,113 @@
+@font-face {
+    font-family: helveticaNeueLTStd;
+    src: url(../fonts/HelveticaNeueLTStd-Lt.otf);
+}
+
+@font-face {
+    font-family: TheBlackFestival;
+    src: url(../fonts/TheBlackFestival-DEMO.ttf);
+}
+
+
+.mainbody{
+    font-family: helveticaNeueLTStd;
+    background-color: black;
+    background: url("/src/GABackground.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.wallOfFame{
+    font-family: TheBlackFestival;
+    display: block;
+    position: absolute;
+    margin-left: 45.5%;
+    font-size: 1.6em;
+    margin-top: 4.5%;
+    letter-spacing: 5px;
+}
+
+.contenu{
+    margin-top: 26.5%;
+    margin-bottom: 0px; 
+    
+}
+
+.imgDev1{
+    height: 200px;
+    display: block;
+    margin-top: 7%;
+    float: left;
+    margin-left: 15%;
+}
+
+.imgDev2{
+    height: 200px;
+    display: block;
+    margin-top: 7%;
+    float: right;
+    margin-right: 15%;
+}
+
+.fightBt{
+    display: inline-block;
+    margin-bottom: 0px;
+    width: 400px;
+    height:50px;
+    border-style: outset;
+    font-size: 2em;
+}
+
+.fightBt:hover {
+    background: lightslategray;
+}
+
+.fightBt:active {
+    background: lightgray;
+}
+
+.fightersForm{
+    margin-bottom: 0px;
+}
+
+.dev1{
+    float: left;
+    margin-left: 10%;
+    font-size: 2em;
+    padding: 2px;
+    border-style: outset;
+}
+
+.dev2{
+    float: right;
+    margin-right: 10%;
+    font-size: 2em;
+    padding: 2px;
+    border-style: outset;
+}
+
+.statDev1{
+    position: absolute;
+    float: left;
+    display: block;
+    width: 250px;
+    margin-left: 0.5%;
+    
+}
+
+.statDev2{
+    position: absolute;
+    float: right;
+    display: block;
+    width: 250px;
+    margin-left: 82%;
+
+}
+
+.wofName{
+    display: inline;
+}

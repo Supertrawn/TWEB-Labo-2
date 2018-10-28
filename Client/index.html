@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" >
+    <title>GIT ARENA - Mega battle of the warriors of the blue sky in the dark empty space of the dead death</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body class="mainbody" >
+
+    <div class="contenu">
+    <!-- background avec illustrator ou photoshop-->
+
+
+        <form class="fightersForm" ACTION="/js/app.js" METHOD="POST" >
+            <input class="dev1" id="nameDev1" type="text" name="Dev1" placeholder="Dev 1">
+            <input class="dev2" id="nameDev2" type="text" name="Dev2" placeholder="Dev 2">
+
+            <!-- le boutn change en ficht dès que les deux combatant sont choisi-->
+            <div style="text-align:center;">
+                <button class="fightBt" id="fbutton" type="button">Choose GIT Developers</button>
+            </div>
+            
+        </form>
+
+        <img class="imgDev1" id="avatar1" src="src/avatar_default.png"/>
+        <img class="imgDev2" id="avatar2" src="src/avatar_default.png"/>
+
+        <div class="wallOfFame">
+            <b>1.</b><div class ="wofName" id="place1">Nortalle</div><br/>
+            <b>2.</b><div class ="wofName" id="place2">Nortalle</div><br/>
+            <b>3.</b><div class ="wofName" id="place3">Nortalle</div><br/>
+            <b>4.</b><div class ="wofName" id="place4">Nortalle</div><br/>
+            <b>5.</b><div class ="wofName" id="place5">Nortalle</div><br/>
+            <b>6.</b><div class ="wofName" id="place6">Nortalle</div><br/>
+            <b>7.</b><div class ="wofName" id="place7">Nortalle</div><br/>
+            <b>8.</b><div class ="wofName" id="place8">Nortalle</div><br/>
+        </div>
+
+        
+        <div class="statDev1">
+            <canvas  id="statChartDev1" width="10" height="6"></canvas>
+        </div>
+        <div class="statDev2">
+            <canvas  id="statChartDev2" width="10" height="6"></canvas>
+        </div>
+        
+        
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
+    <script src="/js/anime.min.js"></script>
+    <script src="/js/app-rest.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>
