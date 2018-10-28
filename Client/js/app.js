@@ -43,7 +43,7 @@ let wallOfFame = {
 };
 
 function getDevLvl(totalCommits){
-    return totalCommits/20000;
+    return totalCommits/40000;
 }
 
 function createStatChart (htmlID, labels, datas, devLvl){
@@ -154,6 +154,7 @@ function fight(){
 }
 
 document.getElementById('fbutton').onclick = function(){
+    
     getUser(document.getElementById('nameDev1').value).then(user => {
         dev1.avatarurl = user.avatar_url;
         setAvatar('avatar1', dev1.avatarurl);
